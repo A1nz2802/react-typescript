@@ -2,6 +2,9 @@ import { Counter } from './components/Counter';
 import { Usuario } from './components/Usuario';
 
 import { TimerPadre } from './components/TimerPadre';
+import { ContadorRed } from './components/ContadorRed';
+import { Formulario } from './components/Formulario';
+import { FormularioCiudad } from './components/FormularioCiudad';
 
 const App = () => {
   return (
@@ -19,6 +22,20 @@ const App = () => {
 
       <TimerPadre />
 
+      <h2>useReducer</h2>
+      <hr />
+      <ContadorRed />
+
+      <h2>CustomHooks</h2>
+      <hr />
+      <Formulario />
+
+      <br />
+      <FormularioCiudad />
+
+      <br />
+      <br />
+      <br />
     </>
   );
 }
