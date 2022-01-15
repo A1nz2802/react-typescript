@@ -1,10 +1,13 @@
 import { Counter } from './components/Counter';
 import { Usuario } from './components/Usuario';
 
+import './App.css';
+
 import { TimerPadre } from './components/TimerPadre';
 import { ContadorRed } from './components/ContadorRed';
 import { Formulario } from './components/Formulario';
 import { FormularioCiudad } from './components/FormularioCiudad';
+import { Todo } from './components/Todo';
 
 const App = () => {
   return (
@@ -36,6 +39,10 @@ const App = () => {
       <br />
       <br />
       <br />
+
+      <div className="App App-header">
+        <Todo />
+      </div>
     </>
   );
 }
